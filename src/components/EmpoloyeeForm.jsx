@@ -43,7 +43,7 @@ export const EmpoloyeeForm = (props) => {
   }
 
   useEffect(() => {
-    // Restear el formulario
+    // Restear el form
     resetForm();
     if (id) {
       const employee = buscar(id);
